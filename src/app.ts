@@ -1,8 +1,8 @@
-import express, { Application, Request, Response } from 'express'
 import cors from 'cors'
-import usersService from './app/modules/users/users.service'
+import express, { Application } from 'express'
 
 // routes
+import globalErrorHandler from './app/middlewares/globalErrorHandler'
 import usersRouter from './app/modules/users/users.route'
 
 const app: Application = express()
@@ -17,13 +17,13 @@ app.use(express.urlencoded({ extended: true }))
 app.use('/api/v1/users/', usersRouter)
 
 // Testing
-app.get('/',async (req: Request, res: Response) => {
-  await usersService.createUserService({
-    id: '999',
-    password: '1234',
-    role: 'student'
-  })
-  res.send('Testing route')
-})
+// app.get('/', (req: Request, res: Response, next: NextFunction) => {
+//   // throw new ApiError(400, 'Not found')
+//   throw new Error('Not found')
+//   // next('Not found') // Error
+// })
+
+// * global error handler
+app.use(globalErrorHandler)
 
 export default app
