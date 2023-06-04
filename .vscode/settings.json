@@ -5,5 +5,25 @@
     "source.organizeImports": true
   },
 
-  "cSpell.words": ["Zihad"]
+  "cSpell.words": ["Zihad"],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#553dee",
+    "activityBar.background": "#553dee",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#f0654f",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#553dee",
+    "statusBar.background": "#3014e4",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#553dee",
+    "statusBarItem.remoteBackground": "#3014e4",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#3014e4",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#3014e499",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#3014e4"
 }
