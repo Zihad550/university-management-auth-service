@@ -1,15 +1,15 @@
-import { NextFunction, Request, Response } from 'express'
+import { ErrorRequestHandler } from 'express'
 import config from '../../config'
 import ApiError from '../../errors/ApiError'
 import handleValidationError from '../../errors/handleValidationError'
 import { IGenericErrorMessage } from '../../interfaces/error.interface'
 
-const globalErrorHandler = (
-  error: Error | any,
-  req: Request,
-  res: Response,
+const globalErrorHandler: ErrorRequestHandler = (
+  error,
+  req,
+  res,
   // eslint-disable-next-line no-unused-vars, @typescript-eslint/no-unused-vars
-  _: NextFunction
+  _
 ) => {
   let statusCode = 500
   let message = 'Internal server error!'

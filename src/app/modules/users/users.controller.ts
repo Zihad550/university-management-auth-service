@@ -1,8 +1,8 @@
-import { NextFunction, Request, Response } from 'express'
+import { RequestHandler } from 'express'
 import { errorLogger } from '../../../shared/logger'
 import usersService from './users.service'
 
-const createUser = async (req: Request, res: Response, next: NextFunction) => {
+const createUser: RequestHandler = async (req, res, next) => {
   try {
     const { user } = req.body
     const result = await usersService.createUserService(user)
