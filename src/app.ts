@@ -3,7 +3,7 @@ import express, { Application } from 'express'
 
 // routes
 import globalErrorHandler from './app/middlewares/globalErrorHandler'
-import usersRouter from './app/modules/users/users.route'
+import { UserRoutes } from './app/modules/user/user.route'
 
 const app: Application = express()
 
@@ -14,12 +14,13 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 // Application routes
-app.use('/api/v1/users/', usersRouter)
+app.use('/api/v1/users/', UserRoutes)
 
-// Testing
+// Testing route
 // app.get('/', (req: Request, res: Response, next: NextFunction) => {
 //   // throw new ApiError(400, 'Not found')
-//   throw new Error('Not found')
+//   //   throw new Error('Not found')
+//   Promise.reject(new Error('Unhandled Promise Rejection'))
 //   // next('Not found') // Error
 // })
 

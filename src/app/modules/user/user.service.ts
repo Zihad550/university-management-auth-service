@@ -1,8 +1,8 @@
 import config from '../../../config'
 import ApiError from '../../../errors/ApiError'
-import IUser from './users.interface'
-import User from './users.model'
-import { generateUserId } from './users.utils'
+import IUser from './user.interface'
+import User from './user.model'
+import { generateUserId } from './user.utils'
 
 const createUserService = async (user: IUser) => {
   // auto generated auto incremental id
@@ -17,6 +17,6 @@ const createUserService = async (user: IUser) => {
   return createdUser
 }
 
-export default {
+export const UserService = {
   createUserService,
 }

@@ -1,8 +1,10 @@
+/* eslint-disable no-console */
 import { ErrorRequestHandler } from 'express'
 import config from '../../config'
 import ApiError from '../../errors/ApiError'
 import handleValidationError from '../../errors/handleValidationError'
 import { IGenericErrorMessage } from '../../interfaces/error.interface'
+import { errorLogger } from '../../shared/logger'
 
 const globalErrorHandler: ErrorRequestHandler = (
   error,
@@ -11,6 +13,11 @@ const globalErrorHandler: ErrorRequestHandler = (
   // eslint-disable-next-line no-unused-vars, @typescript-eslint/no-unused-vars
   _
 ) => {
+  // eslint-disable-next-line no-unused-expressions
+  config.env === 'development'
+    ? console.log(`globalErrorHanler ~`, error)
+    : errorLogger.error('globalErrorHandler ~', error)
+
   let statusCode = 500
   let message = 'Internal server error!'
   let errorMessages: IGenericErrorMessage[] = []
