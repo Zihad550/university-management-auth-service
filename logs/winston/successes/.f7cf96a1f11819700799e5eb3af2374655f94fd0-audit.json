@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/successes/.f7cf96a1f11819700799e5eb3af2374655f94fd0-audit.json",
+    "files": [
+        {
+            "date": 1686447253229,
+            "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/successes/um-2023-11-06-07-success.log",
+            "hash": "d5b75828de695703ba1f4e1561ec5e321dd63ec1914f8e7f3f70063fc3381f77"
+        }
+    ],
+    "hashType": "sha256"
+}
