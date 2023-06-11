@@ -1,0 +1,13 @@
+Sun Jun 11 2023 18:16:16 [UM] error: globalErrorHandler ~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "user",
+      "role"
+    ],
+    "message": "role is required"
+  }
+]

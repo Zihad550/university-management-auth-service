@@ -1,20 +1,30 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/successes/.f7cf96a1f11819700799e5eb3af2374655f94fd0-audit.json",
-  "files": [
-    {
-      "date": 1686447253229,
-      "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/successes/um-2023-11-06-07-success.log",
-      "hash": "d5b75828de695703ba1f4e1561ec5e321dd63ec1914f8e7f3f70063fc3381f77"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1686448869643,
-      "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/successes/um-2023-11-06-08-success.log",
-      "hash": "88836b896406bb87e8604b6bf3eef99cd63e16a769e339fb4675ac6922fa22cf"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/successes/.f7cf96a1f11819700799e5eb3af2374655f94fd0-audit.json",
+    "files": [
+        {
+            "date": 1686447253229,
+            "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/successes/um-2023-11-06-07-success.log",
+            "hash": "d5b75828de695703ba1f4e1561ec5e321dd63ec1914f8e7f3f70063fc3381f77"
+        },
+        {
+            "date": 1686448869643,
+            "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/successes/um-2023-11-06-08-success.log",
+            "hash": "88836b896406bb87e8604b6bf3eef99cd63e16a769e339fb4675ac6922fa22cf"
+        },
+        {
+            "date": 1686484347279,
+            "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/successes/um-2023-11-06-17-success.log",
+            "hash": "277492d84c2c6a30a6cb9675bdcd7bc59656c51637e1835189a25b03f67d2e74"
+        },
+        {
+            "date": 1686485535449,
+            "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/successes/um-2023-11-06-18-success.log",
+            "hash": "f0d073e3fe364246e2bc218e1525774b0f2edecc2afeedca43f364d9aa7a64e8"
+        }
+    ],
+    "hashType": "sha256"
 }
