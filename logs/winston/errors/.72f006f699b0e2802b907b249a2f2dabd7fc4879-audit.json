@@ -9,6 +9,11 @@
             "date": 1686447253232,
             "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/errors/um-2023-11-06-07-error.log",
             "hash": "a4c68891801de8cce311fe2ff52c81f959a01881969216c79fd3cba23a5e743e"
+        },
+        {
+            "date": 1686448845150,
+            "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/errors/um-2023-11-06-08-error.log",
+            "hash": "649a58084f09ebba64706561cfae81e5c61862189399860ae873d0ef7a2ef175"
         }
     ],
     "hashType": "sha256"

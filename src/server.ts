@@ -39,9 +39,9 @@ bootstrap()
 // signal termination
 // send a signal to close the server
 // by pm => process manager
-process.on('SIGTERM', () => {
-  logger.info('SIGTERM')
-  if (server) {
-    server.close()
-  }
-})
+// process.on('SIGTERM', () => {
+//   logger.info('SIGTERM')
+//   if (server) {
+//     server.close()
+//   }
+// })

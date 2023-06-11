@@ -1,0 +1,44 @@
+Sun Jun 11 2023 8:0:45 [UM] error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "role"
+    ],
+    "message": "role is required"
+  }
+]
+Sun Jun 11 2023 8:0:45 [UM] error: globalErrorHandler ~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "role"
+    ],
+    "message": "role is required"
+  }
+]
+Sun Jun 11 2023 8:1:58 [UM] error: globalErrorHandler ~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "role"
+    ],
+    "message": "role is required"
+  }
+]
+Sun Jun 11 2023 8:2:4 [UM] error: globalErrorHandler ~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "role"
+    ],
+    "message": "role is required"
+  }
+]

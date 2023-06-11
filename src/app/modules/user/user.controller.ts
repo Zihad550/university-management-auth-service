@@ -1,5 +1,4 @@
 import { RequestHandler } from 'express'
-import { errorLogger } from '../../../shared/logger'
 import { UserService } from './user.service'
 
 const createUser: RequestHandler = async (req, res, next) => {
@@ -12,7 +11,6 @@ const createUser: RequestHandler = async (req, res, next) => {
       data: result,
     })
   } catch (error: unknown) {
-    if (error instanceof Error) errorLogger.error(error.message)
     next(error)
   }
 }
