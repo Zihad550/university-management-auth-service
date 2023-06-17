@@ -1,4 +1,10 @@
-export const Months: string[] = [
+import {
+  AcademicSemesterCodesType,
+  AcademicSemesterMonthsType,
+  AcademicSemesterTitlesType,
+} from './academicSemester.interface'
+
+export const academicSemesterMonths: AcademicSemesterMonthsType[] = [
   'January',
   'February',
   'March',
@@ -11,4 +17,16 @@ export const Months: string[] = [
   'October',
   'November',
   'December',
+]
+
+export const academicSemesterTitles: AcademicSemesterTitlesType[] = [
+  'Autumn',
+  'Summer',
+  'Fall',
+]
+
+export const academicSemesterCodes: AcademicSemesterCodesType[] = [
+  '01',
+  '02',
+  '03',
 ]
