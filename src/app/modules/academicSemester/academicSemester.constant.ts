@@ -30,3 +30,12 @@ export const academicSemesterCodes: AcademicSemesterCodesType[] = [
   '02',
   '03',
 ]
+
+export const academicSemesterTitleCodeMapper: Record<
+  AcademicSemesterTitlesType,
+  AcademicSemesterCodesType
+> = {
+  Autumn: '01',
+  Summer: '02',
+  Fall: '03',
+}
