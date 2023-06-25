@@ -30,7 +30,7 @@ const getAllSemesters = catchAsync(
     const paginationOptions = pick(req.query, paginationFields)
 
     const result = await AcademicSemesterService.getAllSemesters(
-      filters,
+      filters as any,
       paginationOptions
     )
     sendResponse<IAcademicSemester[]>(res, {

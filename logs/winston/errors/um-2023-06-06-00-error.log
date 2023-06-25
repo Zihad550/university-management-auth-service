@@ -1,2 +1,0 @@
-Tue Jun 06 2023 0:13:48 [UM] error: Failed to connect database connect ETIMEDOUT 192.168.0.106:27017
-Tue Jun 06 2023 0:33:23 [UM] error: User validation failed: role: Path `role` is required.

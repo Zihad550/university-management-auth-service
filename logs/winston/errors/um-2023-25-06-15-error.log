@@ -1,1 +1,2 @@
 Sun Jun 25 2023 15:22:13 [UM] error: Invalid sort value: { 'year': 'asc' }
+Sun Jun 25 2023 15:54:8 [UM] error: unknown top level operator: $regex. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.

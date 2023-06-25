@@ -20,7 +20,7 @@ export type AcademicSemesterCodesType = '01' | '02' | '03'
 
 export default interface IAcademicSemester {
   title: AcademicSemesterTitlesType
-  year: number
+  year: string
   code: AcademicSemesterCodesType
   startMonth: AcademicSemesterMonthsType
   endMonth: AcademicSemesterMonthsType
