@@ -5,7 +5,9 @@ import { paginationHelpers } from '../../../helpers/pagination.helpers'
 import { IGenericPaginationResponse } from '../../../interfaces/common.interface'
 import { IPaginationOptions } from '../../../interfaces/pagination.interface'
 import { academicSemesterTitleCodeMapper } from './academicSemester.constant'
-import IAcademicSemester from './academicSemester.interface'
+import IAcademicSemester, {
+  IAcademicSemesterFilters,
+} from './academicSemester.interface'
 import { AcademicSemester } from './academicSemester.model'
 
 const createSemester = async (
@@ -19,6 +21,7 @@ const createSemester = async (
 }
 
 const getAllSemesters = async (
+  filters: IAcademicSemesterFilters,
   paginationOptions: IPaginationOptions
 ): Promise<IGenericPaginationResponse<IAcademicSemester[]>> => {
   const { limit, page, skip, sortBy, sortOrder } =

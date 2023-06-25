@@ -27,3 +27,7 @@ export default interface IAcademicSemester {
 }
 
 export type AcademicSemesterModel = Model<IAcademicSemester>
+
+export interface IAcademicSemesterFilters {
+  searchTerm: string
+}
