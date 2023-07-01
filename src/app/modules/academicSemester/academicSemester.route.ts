@@ -17,6 +17,7 @@ router.patch(
   validateRequest(AcademicSemesterValidation.updateAcademicSemesterZodSchema),
   AcademicSemesterController.updateSemester
 )
+router.delete('/:id', AcademicSemesterController.deleteSemesterById)
 
 router.get('/', AcademicSemesterController.getAllSemesters)
 
