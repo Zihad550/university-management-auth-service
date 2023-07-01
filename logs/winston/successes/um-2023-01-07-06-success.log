@@ -1,0 +1,9 @@
+Sat Jul 01 2023 6:1:32 [UM] info: Successfully connected to DB
+Sat Jul 01 2023 6:1:32 [UM] info: App listening on port 9000
+Sat Jul 01 2023 6:1:35 [UM] info: Unhandled Rejection is detected, we are closing our server
+Sat Jul 01 2023 6:3:57 [UM] info: Successfully connected to DB
+Sat Jul 01 2023 6:3:57 [UM] info: App listening on port 9000
+Sat Jul 01 2023 6:4:14 [UM] info: SIGTERM is received
+Sat Jul 01 2023 6:4:34 [UM] info: Successfully connected to DB
+Sat Jul 01 2023 6:4:34 [UM] info: App listening on port 9000
+Sat Jul 01 2023 6:5:10 [UM] info: SIGTERM is received

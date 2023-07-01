@@ -1,0 +1,2 @@
+Sat Jul 01 2023 5:44:58 [UM] error: Cast to ObjectId failed for value "6498101430b88b18dd54027" (type string) at path "_id" for model "AcademicSemester"
+Sat Jul 01 2023 5:45:14 [UM] error: Cast to ObjectId failed for value "6498101430b88b18dd54027" (type string) at path "_id" for model "AcademicSemester"

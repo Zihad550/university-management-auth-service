@@ -1,30 +1,30 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/errors/.72f006f699b0e2802b907b249a2f2dabd7fc4879-audit.json",
-  "files": [
-    {
-      "date": 1686484347281,
-      "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/errors/um-2023-11-06-17-error.log",
-      "hash": "2096a5a96dbaae1e54ced2f8d3a6346e040bcf227658d7cd3b42d31c70ef21db"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1686485535451,
-      "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/errors/um-2023-11-06-18-error.log",
-      "hash": "fb0542191b5e1919ac25c824840bdeb9b5349edc3ce373277170c8eb47d23d15"
-    },
-    {
-      "date": 1687682492324,
-      "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/errors/um-2023-25-06-14-error.log",
-      "hash": "cd57be4bd57ba217d926fa3ef0fbd0ebda43215102bd2461c025ae082533e908"
-    },
-    {
-      "date": 1687683657769,
-      "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/errors/um-2023-25-06-15-error.log",
-      "hash": "08e14534ed0ffd3ed27f5aaea87efb0cb5c83ff0996a6c99e8750a9786b71caa"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/errors/.72f006f699b0e2802b907b249a2f2dabd7fc4879-audit.json",
+    "files": [
+        {
+            "date": 1687682492324,
+            "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/errors/um-2023-25-06-14-error.log",
+            "hash": "cd57be4bd57ba217d926fa3ef0fbd0ebda43215102bd2461c025ae082533e908"
+        },
+        {
+            "date": 1687683657769,
+            "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/errors/um-2023-25-06-15-error.log",
+            "hash": "08e14534ed0ffd3ed27f5aaea87efb0cb5c83ff0996a6c99e8750a9786b71caa"
+        },
+        {
+            "date": 1688168018193,
+            "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/errors/um-2023-01-07-05-error.log",
+            "hash": "ebdff73b43b3334d07515722e27b4e61c3ce6a5d3c8f821062c25945eaae3cf8"
+        },
+        {
+            "date": 1688169691823,
+            "name": "/home/jehad/Projects/university-management/university-management-auth-service/logs/winston/errors/um-2023-01-07-06-error.log",
+            "hash": "28e40bd23a01c5ee680ce1dc913af35425a4fac183a16e5b371f3307de7e30d5"
+        }
+    ],
+    "hashType": "sha256"
 }

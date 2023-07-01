@@ -76,7 +76,8 @@ const getAllSemesters = async (
 const getSemesterById = async (
   id: string
 ): Promise<IAcademicSemester | null> => {
-  return await AcademicSemester.findById(id)
+  const result = await AcademicSemester.findById(id)
+  return result
 }
 
 export const AcademicSemesterService = {

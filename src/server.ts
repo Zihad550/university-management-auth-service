@@ -14,10 +14,10 @@ let server: Server
 async function bootstrap() {
   try {
     await mongoose.connect(config.dbUri as string)
+    logger.info(`Successfully connected to DB`)
     server = app.listen(config.port, () => {
       logger.info(`App listening on port ${config.port}`)
     })
-    logger.info(`Successfully connected to DB`)
   } catch (err) {
     errorLogger.error('Failed to connect database', err)
   }
@@ -39,9 +39,9 @@ bootstrap()
 // signal termination
 // send a signal to close the server
 // by pm => process manager
-// process.on('SIGTERM', () => {
-//   logger.info('SIGTERM')
-//   if (server) {
-//     server.close()
-//   }
-// })
+process.on('SIGTERM', () => {
+  logger.info('SIGTERM is received')
+  if (server) {
+    server.close()
+  }
+})
