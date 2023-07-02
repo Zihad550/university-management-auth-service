@@ -26,7 +26,10 @@ export default interface IAcademicSemester {
   endMonth: AcademicSemesterMonthsType
 }
 
-export type AcademicSemesterModel = Model<IAcademicSemester>
+export type AcademicSemesterModel = Model<
+  IAcademicSemester,
+  Record<string, unknown>
+>
 
 export interface IAcademicSemesterFilters {
   searchTerm?: string
