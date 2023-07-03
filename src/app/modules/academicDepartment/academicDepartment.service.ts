@@ -20,14 +20,17 @@ const deleteDepartmentById = async (
 const getDepartmentById = async (
   id: string
 ): Promise<IAcademicDepartment | null> => {
-  return await AcademicDepartment.findById(id)
+  return await AcademicDepartment.findById(id).populate('academicFaculty')
 }
 
 const updateDepartment = async (
   id: string,
   payload: IAcademicDepartment
 ): Promise<IAcademicDepartment | null> => {
-  return await AcademicDepartment.findOneAndUpdate({ _id: id }, payload)
+  return await AcademicDepartment.findOneAndUpdate(
+    { _id: id },
+    payload
+  ).populate('academicFaculty')
 }
 
 const getAllDepartments = async (
@@ -41,6 +44,7 @@ const getAllDepartments = async (
   if (sortBy && sortOrder) sortConditions[sortBy] = sortOrder
 
   const result = await AcademicDepartment.find({})
+    .populate('academicFaculty')
     .sort(sortConditions)
     .skip(skip)
     .limit(limit)
